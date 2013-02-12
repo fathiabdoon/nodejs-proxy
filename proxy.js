@@ -25,7 +25,7 @@ function decode_host(host){
     out.port = host[1] || 80;
     return out;asdas
 }
-
+asdasd
 //encode host field
 function encode_host(host){
     return host.host+((host.port==80)?"":":"+host.port);
