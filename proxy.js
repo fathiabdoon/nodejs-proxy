@@ -23,7 +23,7 @@ function decode_host(host){
     host = host.split(':');
     out.host = host[0];
     out.port = host[1] || 80;
-    return out;
+    return out;asdas
 }
 
 //encode host field

@@ -24,7 +24,7 @@ var config = {
                   fs.readFileSync('/path/to/sub-ca.pem')]
             },{ 
               ip:'::',//all *secure* ipv6 interfaces
-              port:443,
+              port:443,asdasd
               key:fs.readFileSync('/path/to/ssl.key'),
               cert:fs.readFileSync('/path/to/ssl.crt'),
               ca:[fs.readFileSync('/path/to/ca.pem'), 
